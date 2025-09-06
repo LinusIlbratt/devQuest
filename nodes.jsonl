@@ -1,0 +1,5 @@
+{"slug":"intro","title":"Intro: Din resa","kind":"theory","area":"Core","pos":{"x":120,"y":220},"requires":[]}
+{"slug":"docker-101","title":"Docker 101","kind":"theory","area":"Docker","pos":{"x":280,"y":220},"requires":["intro"]}
+{"slug":"layers","title":"Layers & Cache","kind":"sim","area":"Docker","pos":{"x":440,"y":220},"requires":["docker-101"]}
+{"slug":"layers-quiz","title":"Layers Quiz","kind":"quiz","area":"Docker","pos":{"x":600,"y":220},"requires":["layers"]}
+{"slug":"images-vs-containers","title":"Images vs Containers","kind":"theory","area":"Docker","pos":{"x":760,"y":220},"requires":["layers-quiz"]}
